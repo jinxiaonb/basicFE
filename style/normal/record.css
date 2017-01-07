@@ -1,0 +1,67 @@
+
+
+.tab ul{
+	margin: 0 0.5rem;
+	margin-top: 0.5rem;
+	font-size: 0.8rem;
+	border-radius: 0.4rem;
+}
+.tab li{
+	float: left;
+	width: 5rem;
+	line-height: 2.5rem;
+}
+.tab a{
+	width: 5rem;
+	text-align: center;
+	display: inline-block;
+	background-color: #ccc;
+	color: #333;
+}
+.tab li.selected a{
+	background-color: #f60;
+	color: #fff;
+}
+
+.c-content{
+	margin-top: 0.5rem;
+	font-size: 0.6rem;
+}
+.c-content p{
+	margin: 0 0.5rem;
+}
+.tab-common{
+	
+}
+.tab1 em{
+	width: 3rem;
+	line-height: 1.5rem;
+	display: inline-block;
+	text-align: center;
+}
+.tab1 em i{
+	font-style: normal;
+	color: #f60;
+}
+
+.list{
+	background-color: #fff;
+	padding-top: 0.4rem;
+}
+.list p{
+	font-size: 0.6rem;
+}
+.list table{
+	font-size: 0.6rem;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.list table td{
+	height: 2rem;
+	text-align: center;
+}
+.list table thead tr{
+	color: #333;
+	font-weight: bold;
+	font-size: 0.8rem;
+}

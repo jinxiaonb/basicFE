@@ -1,4 +1,5 @@
-require(['jquery'], function(jQuery) {
+require(['jquery', 'footer'], function(jQuery, footer) {
 
 	console.log("......");
+	footer.setActiveNav("index");
 });

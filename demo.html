@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>测试页面</title>
+    <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/1.5.4/skins/default/index.css" />
+    <script type="text/javascript" src="//g.alicdn.com/de/prismplayer/1.5.4/prism-min.js"></script>
+</head>
+<body>
+<div id="J_prismPlayer" class="prism-player"></div>
+<!-- prism-player为h5播放器皮肤的钩子类名，请务必加上 -->
+<button id="J_clickToPlay" type="button">播放</button>
+<script>
+function init(){
+    // 初始化播放器
+    var player = new prismplayer({
+        id: "J_prismPlayer", // 容器id
+        source: "http://cloud.video.taobao.com/play/u/2554695624/p/1/e/6/t/1/fv/102/28552077.mp4",//
+        autoplay: true,    //自动播放：否
+        width: "670px",       // 播放器宽度
+        height: "418px"      // 播放器高度
+    });
+}
+
+init();
+    
+</script>
+</body>
+</html>

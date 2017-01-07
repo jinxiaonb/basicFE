@@ -1,7 +1,14 @@
 require.config({
-	baseUrl: "./static",
 	paths: {
-		"jquery": "lib/jquery"
+		"jquery": "/static/lib/jquery",
+		"footer": "/widget/common/footer",
+		"footer_line": "/widget/common/footer_line",
+
+		"JReq": "/widget/util/JReq",
+
+
+		"record": "/widget/model/record", //投资记录
+		"recordBean": "/widget/bean/recordBean" //投资记录数据渲染
 	},
 	waitSeconds: 10
 });

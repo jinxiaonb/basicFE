@@ -23,9 +23,9 @@
 	    <meta name="author" content="jinxiao, 315232021@163.com"/>
 	    <!-- 搜索引擎抓取 -->
 	    <meta name="robots" content="index,follow"/>
-		<title>wanwan</title>
+		<title>提现</title>
 		<link rel="stylesheet" href="/style/normalize.css">
-		<link rel="stylesheet" href="/style/normal/index.css">
+		<link rel="stylesheet" href="/style/normal/cash.css">
 		<link rel="stylesheet" href="/style/normal/footer.css">
 	</head>
 	<body>
@@ -36,35 +36,42 @@
 
 		<div class="container">
 			<!-- content start-->
-
-			<div class="basic-info overflow">
-				<div class="f-left touxiang b-r">
-					<img src="./images/tx.jpg" alt="">
-				</div>
-				<div class="f-right info">
-					<p><span>账户余额：</span><em>3.4</em>元<i class="iconfont">F</i></p>
-					<p><span>计入福利消费：</span><em>0</em>元<i class="iconfont"></i></p>
-					<p><span>待收福利：</span><em>0</em>元<i class="iconfont"></i></p>
-					<p>(待收福利次日5点到账)</p>
-				</div>
+			<div class="content">
+				<p>提现说明：</p>
+				<p>输入提现金额，点击确认提交申请，加群主(群成员排名第一个)私聊通知。</p>
+				<p>提现时间:9:00-02:00</p>
+				<p class="link"><a href="javascript:void(0)">点击链接添加值班财务提现!</a></p>
+				<p><span>账号余额:</span><em>3.4</em>元</p>
+				<p>每天可以提现<em>5</em>次，今日已提现<em>0</em>次,还可以提现<em>5</em>次。</p>
+				<p><span>提现金额:</span><input type="text" value="" placeholder="请输入金额" id="money"><a href="javascript:void(0);" id="confirm">确认</a></p>	
 			</div>
-			<div class="c-tip">
-				<a href="javascript:void(0);" class="b-r"><i class="iconfont"></i>房间公告</a><a href="javascript:void(0);"><i class="iconfont"></i>邀请/收藏</a>
-			</div>
-			<div class="c-list">
-				<ul>
-					<li class="b-r-b"><a href="/views/niuniu.html">北京快乐8(牛牛)</a></li>
-					<li class="b-r-b"><a href="/views/saiche.html">北京赛车PK10</a></li>
-					<li class="b-b"><a href="/views/cq.html">重庆时时彩</a></li>
-					<li class="b-r-b"><a href="/views/feiting.html">马耳他飞艇</a></li>
-					<li class="b-r-b"><a href="/views/jsk3.html">江苏快3</a></li>
-					<li class="b-b"><a href="/views/mytatistics.html">我的统计</a></li>
-					<li class="b-r"><a href="/views/recharge.html">银行卡充值</a></li>
-					<li class="b-r"><a href="javascript:void(0);">微信充值</a></li>
-					<li><a href="/views/cash.html">提现</a></li>
-				</ul>
-			</div>
+			
 			<!-- content end-->
+
+			<p class="table-title">最近24小时提现记录</p>
+			<div class="list">
+				<table>
+					<thead>
+						<tr>
+							<td>提现金额</td>
+							<td>提现状态</td>
+							<td>提现时间</td>
+						</tr>
+					</thead>
+					<tbody id="tbody">
+						<tr>
+							<td>100</td>
+							<td>已提</td>
+							<td>2017-01-02</td>
+						</tr>
+						<tr>
+							<td>100</td>
+							<td>未提</td>
+							<td>2017-01-02</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
 		</div>
 		<!-- footer start -->
@@ -73,6 +80,6 @@
 		<script src="/widget/util/JInit.js"></script>
 		<script src="/static/lib/require.js"></script>
 		<script src="/static/main.js"></script>
-		<script src="/widget/init/initIndex.js"></script>
+		<script src="/widget/init/initCash.js"></script>
 	</body>
 </html>

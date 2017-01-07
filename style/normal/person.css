@@ -1,0 +1,31 @@
+.contact{
+	background-color: #fff;
+	padding: 1rem 0;
+}
+.c-li{
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+	margin:0 0.8rem;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	font-size: 0.8rem;
+}
+.c-li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.c-li strong{
+	float: left;
+	color: #333;
+}
+.c-li i{
+	float: right;
+	width: 1rem;
+	display: inline-block;
+	text-align: right;
+	font-size: 0.7rem;
+}
+.c-li a:link,.c-li a:visited,.c-li a:hover,.c-li a:active{
+	color: #666;
+}

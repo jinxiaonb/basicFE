@@ -1,0 +1,72 @@
+.container{
+	
+}
+.basic-info{
+	height: 5.2rem;
+	background-color: #fff;
+	border-bottom: 1px solid #dedede;
+	width: 15.8rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+.touxiang{
+	width: 5.2rem;
+	height: 100%;
+}
+.touxiang img{
+	width: 4.2rem;
+	height: 4.2rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.info{
+	width: 10.4rem;
+	height: 100%;
+	padding-top: 0.6rem;
+}
+.info p{
+	font-size: 0.6rem;
+	line-height: 1rem;
+	margin-left: 0.5rem;
+}
+.info p em{
+	color: #f00;
+}
+.c-tip{
+	background-color: #fff;
+	margin-bottom: 1rem;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.c-tip a{
+	width: 7.9rem;
+	display: inline-block;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #333;
+}
+
+.c-list ul{
+	overflow: hidden;
+	background-color: #fff;
+	width: 15.8rem;
+	margin: 0 auto;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.c-list li{
+	width: 5.2rem;
+	height: 5.2rem;
+	line-height: 5.2rem;
+	font-size: 0.6rem;
+	float: left;
+	text-align: center;
+}
+.c-list a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: #333;
+}

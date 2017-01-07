@@ -16,7 +16,10 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-
+*{
+  margin:0;
+  padding: 0;
+}
 body {
   margin: 0;
 }
@@ -475,7 +478,7 @@ em,span{
 
 
 .content{
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .b-line{
@@ -502,4 +505,33 @@ li{
   margin-left: -50px;
   z-index: 99;
   margin-top: 50%;
+}
+
+body{
+  background-color: #f2f2f2;
+}
+.overflow{
+  overflow: hidden;
+}
+.f-left{
+  float:left!important;
+}
+.f-right{
+  float:right!important;
+}
+
+
+.b-r-b{
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+.b-b{
+  border-bottom: 1px solid #dedede;
+}
+.b-r{
+  border-right: 1px solid #dedede;
+}
+
+.container{
+  margin-bottom: 4rem;
 }
