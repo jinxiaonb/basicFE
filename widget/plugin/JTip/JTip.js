@@ -4,7 +4,7 @@ define(['jquery', 'client'], function(jQuery, client) {
 		//console.log(opts.link);
 		var mask = $("<div class='JTmask'></div>"),
 			JTip = $("<div class='JTip'>"),
-			JTTitle = $("<div class='JTTitle'><a href='javascript:void(0);' class='JTClose'>X</a></div>"),
+			JTTitle = $("<div class='JTTitle'><span class='JTitle'>" + opts.title + "</span><a href='javascript:void(0);' class='JTClose'>X</a></div>"),
 			JTContent = $("<div class='JTContent'>" + opts.message + "</div>");
 
 		JTBtn = $("<div class='JTBtn'>");
@@ -12,7 +12,7 @@ define(['jquery', 'client'], function(jQuery, client) {
 
 		JTip.append(JTTitle);
 		JTip.append(JTContent);
-		JTBtn.append(jxd_submit);
+		//JTBtn.append(jxd_submit);
 
 		JTip.append(JTBtn);
 
@@ -22,7 +22,7 @@ define(['jquery', 'client'], function(jQuery, client) {
 
 		$("body").append(JTip);
 		$(".JTip").css({
-			"top": c_client.c_scroll_top + 200
+			"top": c_client.c_scroll_top + 40
 		});
 	}
 
@@ -41,6 +41,7 @@ define(['jquery', 'client'], function(jQuery, client) {
 
 	var bd = function(options) {
 		var defaults = {
+			title: "标题",
 			message: "成功",
 			link: "javascript:void(0);",
 			btnStr: "知道了",
